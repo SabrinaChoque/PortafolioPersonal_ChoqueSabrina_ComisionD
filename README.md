@@ -1,4 +1,6 @@
 # PortafolioPersonal_ChoqueSabrina_ComisionD
+link: https://sabrinachoque.github.io/PortafolioPersonal_ChoqueSabrina_ComisionD/
+
 Checklist - Práctica Formativa Obligatoria 1
 • Estructura del Proyecto:
 [x ] Archivo "index.html" ubicado en la raíz.

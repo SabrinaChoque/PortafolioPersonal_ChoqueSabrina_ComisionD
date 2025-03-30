@@ -3,30 +3,30 @@ link: https://sabrinachoque.github.io/PortafolioPersonal_ChoqueSabrina_ComisionD
 
 Checklist - Práctica Formativa Obligatoria 1
 • Estructura del Proyecto:
-[x ] Archivo "index.html" ubicado en la raíz.
-[x ] Carpeta "css" que contenga el archivo "styles.css".
-[x ] (Opcional) Carpeta "img" para recursos gráficos.
-[x ] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
+[x] Archivo "index.html" ubicado en la raíz.
+[x] Carpeta "css" que contenga el archivo "styles.css".
+[x] (Opcional) Carpeta "img" para recursos gráficos.
+[x] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
 • Repositorio y Publicación:
-[ x] Repositorio en GitHub creado.
+[x] Repositorio en GitHub creado.
 [ ] Proyecto subido al repositorio.
 [ ] Proyecto publicado utilizando GitHub Pages.
-[ ] En el "README.md" se indica la URL de GitHub Pages.
+[x] En el "README.md" se indica la URL de GitHub Pages.
 • Uso de Google Fonts:
-[ ] Enlace a Google Fonts incluido en la sección "head" del HTML.
-[ ] La tipografía importada se aplica en el sitio.
-[ ] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?
-Respuesta: __________________________________________________________
+[x] Enlace a Google Fonts incluido en la sección "head" del HTML.
+[x] La tipografía importada se aplica en el sitio.
+[x] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?
+Respuesta: Por el momento elegi esta tipografia para empezar a diseñar en front, es mi primera vez usando html y css, y como se recomienda utilizar de ejemplo roboto , la elegi para practicar.
 • HTML:
-[ ] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".
-[ ] Se han incluido las metaetiquetas obligatorias: charset y viewport.
-[ ] Se ha definido un título descriptivo.
-[ ] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts.
+[x] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".
+[c] Se han incluido las metaetiquetas obligatorias: charset y viewport.
+[x] Se ha definido un título descriptivo.
+[c] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts.
 Secciones obligatorias en "main":
-[ ] Barra de navegación ("nav") presente y contiene al menos 3 enlaces.
+[c] Barra de navegación ("nav") presente y contiene al menos 3 enlaces.
 [ ] Se han insertado al menos 4 comentarios explicativos en el código HTML.
 • CSS:
-[ ] Existe el archivo "styles.css" con estilos personalizados.
+[c] Existe el archivo "styles.css" con estilos personalizados.
 [ ] Se utilizan selectores basados en clases e identificadores.
 [ ] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.
 Layout y Organización:

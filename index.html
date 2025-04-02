@@ -13,12 +13,13 @@
     <header>
         <h1>Mi Portafolio Personal</h1>
         <nav>
-            <a href="#sobreMi">Sobre Mí</a>
-            <a href="#tarjetas">Proyectos</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#hobbies">Hobbies</a>
-            <a href="#contacto">Contacto</a>
-            <a href="#peliculas">Peliculas Favoritas</a>
+            <ul>
+                <li><a href="#sobreMi">Sobre Mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#peliculas">Películas Favoritas</a></li>
+            </ul>
         </nav>
         
     
@@ -26,35 +27,30 @@
 
     <main>
         <section id="sobreMi">
-            <div>
-                <h2><u>Sobre-Mi</u></h2>
-                <p>Hola mi nombre es sabrina choque, tengo 38 años,casada hace 11 años y tengo a mi niño que se llama
-                     dante. <br> Actualmente estoy cursando la carrera de <b>Tecnicatura superior de Desarrollo de 
-                    Software </b>.<b></b>
-                    Empece a interesarme en el mundo de <b>IT</b> aprendiendo microinformatica sobre armado y reparacion
-                     de pc. Pero durante la pandemia no tenia muchos clientes, y es ahi donde pude ver la oportunidad de
-                      estudiar <b>Programación con java full stack</b>. Un curso que me hizo amar todo referido a
-                       programas y uno de ellos fue aprender Desarrollo en sistemas. <br>
-                    Este año estoy con la asignatura <b>FrontEnd</b> si bien esta fuera de mis habilidades y 
-                    conocimiento, es un gran reto y espero dar todo de mi, porque mi meta es poder obtener mi primer
-                     trabajo como desarrollador y mi gran meta es poder lider a un equipo !.</p>
-                <img src="img/sabrina.jpg" alt="foto de como soy">
-            </div>
-
-        </section>
-
-        <section id="tarjetas">
-            <h2><u>Mis Proyectos</u></h2>
-            <div class="tarjeta-container">
-                <div class="tarjeta">Proyecto 1</div>
-                <div class="tarjeta">Proyecto 2</div>
+            <div class="tarjeta">
+                <h2>Sobre Mí</h2>   
+                <div class="contenedorSobreMi">
+                    <div class="imagen">
+                        <img src="img/sabrina.jpg" alt="Foto de Sabrina">
+                    </div>
+                    <div class="texto">
+                        <p>Hola mi nombre es Sabrina Choque, tengo 38 años, casada hace 11 años y tengo a mi niño que se llama Dante.</p>
+                        <p>Actualmente estoy cursando la carrera de <b>Tecnicatura Superior de Desarrollo de Software</b>.</p>
+                        <p>Empecé a interesarme en el mundo de <b>IT</b> aprendiendo microinformática sobre armado y reparación de PC.</p>
+                        <p>Pero durante la pandemia no tenía muchos clientes, y ahí pude ver la oportunidad de estudiar <b>Programación con Java Full Stack</b>.
+                        Un curso que me hizo amar el desarrollo de software.</p>
+                        <p>Este año estoy con la asignatura <b>FrontEnd</b>. Aunque está fuera de mis habilidades y conocimiento, es un gran reto.
+                        Espero dar lo mejor de mí porque mi meta es obtener mi primer trabajo como desarrolladora y, en el futuro, liderar un equipo.</p>
+                    </div>
+                </div>
             </div>
         </section>
         
+             
         <section id="habilidades">
-            <h2><u>Habilidades:</u></h2>
+            <h2>Habilidades:</h2>
 
-    <table border="1">
+    <table class="cuadro-habilidades">
         <tr>
      <th>Propias</th>
      <th>Futuras</th>
@@ -78,8 +74,8 @@
     </table>  
         </section>
         <section id="hobbies">
-            <h2><u>Hobbies:</u></h2>
-<ul>
+            <h2>Hobbies:</h2>
+<ul class="lista-hobbies">
     <li><b>Manualidades:</b>
         <p>Me gusta mucho la costura, porcelana y todo lo que sea artesanía.</p>
     </li>
@@ -96,39 +92,45 @@
         </section>
         
         <section id="contacto">
-            <form >
-                <h2 id="contacto"><u>Contacto:</u></h2>
-                 <p><label for="nombre">Nombre: <input type="text"></label></p>
-                 <p><label for="apellido">Apellido: <input type="text"></label></p>
-                 <p><label for="email">Email: <input type="text"></label></p>
-                <p><label for="telefono">Telefono: <input type="text"></label></p>
-               
-             <button type="summit">Enviar</button>
+            <form class="form-contacto">
+                <h2 id="contacto">Contacto:</h2>
+                 <p><label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"></p><p>
+          <label for="apellido">Apellido:</label><input type="text" id="apellido" name="apellido"></p><p>
+        <label for="email">Email:</label><input type="text" id="email" name="email"></p><p>
+          <label for="telefono">Teléfono:</label><input type="text" id="telefono" name="telefono"></p>            
+             <button type="submit">Enviar</button>
             </form>           
         </section>
-    
-        
-        <section id="peliculas">
-            <h2><u>Peliculas Favoritas:</u></h2>
+
+                <section id="peliculas">
+            <h2>Peliculas Favoritas:</h2>
+            <div class="contenedorPeliculas">
+                <div class="tarjetaPeliculas">
   <img src="img/ExtrañoMundoDeJack.jpg" alt="imagen:El extraño mundo de jack">
   <h3>El Extraño Mundo De Jack:</h3>
   <p>Esta película cuenta la historia de Jack Skellington, el Rey de Halloween, quien se ha cansado de hacer lo mismo 
     año tras año. Al descubrir la Navidad, se obsesiona con la idea de asumir el papel de Santa Claus, por lo que decide 
     capturarlo y apoderarse de la festividad. Sin embargo, las cosas no salen como él espera, y su plan termina teniendo
      consecuencias inesperadas.</p>
+    </div>
+    
+    <div class="tarjetaPeliculas">
   <img src="img/cadaverDeLaNovia.jpg" alt="imagen:El cadaver de la novia">
   <h3>El cadaver de la novia:</h3>
   <p>¿Alguna vez imaginaste cómo sería casarte con un muerto? En El cadáver de la novia, un joven se compromete 
     accidentalmente con el espíritu de una novia que nunca logró llegar al altar. La película explora el matrimonio, 
     la crueldad de ciertas tradiciones y los intereses ocultos de las personas, todo dentro de una atmósfera gótica y
-     conmovedora.</p>
+     conmovedora.</p></div>
+     <div class="tarjetaPeliculas">
   <img src="img/elCastilloAmbulante.jpg" alt="imagen:Castillo ambulante">
   <h3>El castillo ambulante:</h3>
   <p>Una hermosa película llena de fantasía y magia. La historia sigue a Sophie, una joven que es maldecida por una
      bruja y transformada en una anciana. En su búsqueda por romper el hechizo, encuentra el enigmático Castillo
       Ambulante y comienza a trabajar como limpiadora. A lo largo de la historia, descubre secretos sobre el castillo,
        su misterioso dueño Howl y el verdadero significado de la valentía y el amor. </p>
-            
+       </div>
+       </div>
         </section>        
 
     </main>

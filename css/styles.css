@@ -21,7 +21,7 @@ h1 {
 
 
   nav {
-    background-color: #b388eb; /* Violeta suave */
+    background-color: #b388eb; 
     padding: 10px 0;
     text-align: center;
     margin-top: 20px;
@@ -57,9 +57,9 @@ main {
 }
 
 section {
-    width: 80%; /* podés ajustar a 60% si querés más angosto */
+    width: 80%; 
    max-width: 900px;
-   margin: 20px auto; /* esto agrega espacio entre secciones y las centra si se pierde el flex */
+   margin: 20px auto; 
    padding: 40px;
    background-color: #a2e3f5;
    border-radius: 20px;
@@ -70,7 +70,7 @@ section {
 h2 {
     text-align: center;
     font-size: 28px;
-    font-weight: bold; /* negrita */
+    font-weight: bold; 
     margin-top: 5px;
     margin-bottom: 5px;
     color: #333;
@@ -83,7 +83,7 @@ h2 {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    max-width: 90%; /* Asegura que ocupe el ancho necesario */
+    max-width: 90%; 
     margin: 0 auto;
     padding: 20px;
 }
@@ -123,14 +123,14 @@ h2 {
     color: #003344;
 }
 .lista-hobbies {
-    border: 3px solid #333366; /* violeta oscuro */
+    border: 3px solid #333366;
     padding: 20px;
     border-radius: 15px;
     width: 90%;
     margin: 0 auto;
     list-style-position: inside;
-    background-color: transparent; /* sin fondo */
-    box-shadow: none; /* sin sombra */
+    background-color: transparent; 
+    box-shadow: none; 
 }
 .form-contacto {
     width: 100%;
@@ -213,4 +213,21 @@ h2 {
 .tarjetaPeliculas p {
     font-size: 14px;
     color: #444;
+}
+footer {
+    background-color: #b388eb;
+    color: rgb(109, 11, 112);
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+footer a {
+    color:#f7f6f8 ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
